@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop watch</title>
+    <link rel="stylesheet" href="watchStyle.css">
+</head>
+<body>
+    
+    <div class="watch" id="watch">
+        <div class="watch-time" id="watch-time">
+            0 : 0
+        </div>
+
+        <div class="watch-clock">
+            <div class="watch-clock--dot">
+
+            </div>
+
+            <div class="watch-clock--sec" id="watch-clock-hand" >
+                <div class="sec---hand" >
+                    <div class="hand" >
+
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="watch-clock--marks1"></div>
+            <div class="watch-clock--marks2"></div>
+            <div class="watch-clock--marks3"></div>
+            <div class="watch-clock--marks4"></div>
+
+        </div>
+
+        
+
+    </div>
+
+    <div class="marks">
+
+        <div id="marked"></div>
+    </div>
+    
+    <button id="start-stop" onclick="start()">Start</button>
+
+    <button id="clear" onclick="clear_time()">Clear</button>
+
+    <button id="mark" onclick="mark_time()">Mark</button>
+    
+    
+
+    <script src="stopWatch.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+.watch {
+    margin: 50px;
+    margin-top: 0;    
+}
+
+#watch-time {
+    font-size: 54px;
+    margin-left: 560px;
+    color: #091921;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.watch-clock {
+    width: 500px;
+    height: 500px;
+    border: 20px solid #091921;
+    border-radius: 100%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.watch-clock--dot {
+    position: absolute;
+    background-color: #091921;
+    top: 240px;
+    left: 240px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.watch-clock--sec {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50px;
+    left: 50px;
+    border-radius: 100%;
+}
+.sec---hand{
+    position: relative;
+}
+
+.hand {
+    width: 4px;
+    height: 200px;
+    background-color: #091921;
+    position: absolute;
+    left: 198px;
+}
+#start-stop {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #091921;
+    color: rgb(221, 87, 87);
+    font-weight: bold;
+}
+#clear {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #091921;
+    color: rgb(221, 87, 87);
+    font-weight: bold;
+}
+#mark {
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #091921;
+    color: rgb(221, 87, 87);
+    font-weight: bold;
+}
+.watch-clock--marks1 {
+    position: absolute;
+    width: 5px;
+    border-bottom: solid 20px rgb(221, 87, 87);
+    left: 248px;
+    top: 5px;
+}
+.watch-clock--marks2 {
+    position: absolute;
+    width: 5px;
+    border-bottom: solid 20px rgb(221, 87, 87);
+    left: 248px;
+    top: 475px;
+}
+.watch-clock--marks3 {
+    position: absolute;
+    width: 20px;
+    border-bottom: solid 5px rgb(221, 87, 87);
+    left: 475px;
+    top: 250px;
+}
+.watch-clock--marks4 {
+    position: absolute;
+    width: 20px;
+    border-bottom: solid 5px rgb(221, 87, 87);
+    left: 5px;
+    top: 250px;
+}
+
+.marks {
+    position: absolute;
+    left: 1100px;
+    top: 100px;
+    color: #091921;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
